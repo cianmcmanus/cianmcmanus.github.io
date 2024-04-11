@@ -1,0 +1,70 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="tribute page to James Connolly" />
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<main id="main">
+  <h1 id="title">Tribute Page to James Connolly</h1>
+  <p>One of the organisers of the 1916 Easter Rising</p>
+<div id="img-div">
+  <img id="image" src="https://www.rte.ie/centuryireland//images/uploads/article-images/Ed33-Connolly.jpg">
+  <div id="img-caption"> <p>James Connolly was a revolutionary socialist, a trade union leader and a political theorist. His execution by firing squad after the Easter Rising, supported by a chair because of his wounds, significantly contributed to the mood of bitterness in Ireland.</p>
+  </div>
+</div>
+<p id="tribute-info">Connolly was born in Edinburgh, the son of Irish parents. Like Larkin, he was brought up in poverty, largely self-educated, attracted into politics by the labour movement and drawn through it to Ireland. In 1896, he was invited to become paid organiser of the Dublin Socialist Society. By the time he emigrated to the US in 1903 his ideas had developed, fusing together both his socialist and nationalist principles. When he returned to Ireland in 1910 he found the Irish political environment more receptive. Connolly rose to prominence during the Dublin Lockout in 1913 and in October 1914, after Larkin’s departure for America, became General Secretary of the Irish Transport and General Workers` Union and commander of the Irish Citizen Army (ICA). Liberty Hall was the headquarters of both and this became his power base. He welded the ICA into a potent force and potential weapon for his own use. Though small, just 220 members in 1912, it was well disciplined and trained and ideologically united; its goal was an independent Irish republic.
+
+With the outbreak of war, Connolly became increasingly committed to fomenting an insurrection against British rule in Ireland; he had gradually changed from labour organiser and agitator into military commandant and theorist. In mid-January 1916 he reached agreement with the Irish Republican Brotherhood Military Council to co-operate in an insurrection the following Easter. He joined the Council, and on the day before the Rising its members appointed him vice-president of the Irish Republic and Commandant-General, Dublin Division, Irish Army.<br />
+<br />
+Connolly proved himself to be the most effective and inspirational of the rebel leaders during the insurrection. On Easter Monday, 24th April, he led the Headquarters Battalion from Liberty Hall to the General Post Office and commanded military operations there throughout the week – supervising the construction of defences, determining and adjusting strategy, summoning reinforcements and deciding on the disposition of his forces. That only nine volunteers in the post office garrison died during the fighting is testimony to his talents. He himself took constant risks with his own safety but even after being severely wounded on 27th April, he remained, as Patrick Pearse said, "still the guiding brain of our resistance".<br />
+<br />
+At noon on Saturday 29th April, Connolly supported the majority view of the leaders that they should surrender as he ‘could not bear to see his brave boys burnt to death’. His expectation was that the Rising`s organisers would be shot and the rest set free. Under military escort, Connolly was carried to the Red Cross hospital at Dublin Castle where hours later he signed Pearse`s surrender order on behalf of the Irish Citizen Army. He was court-martialled there, propped up in his bed, on 9th May. At his trial he read a brief hand-written statement which stated that: ‘The cause of Irish freedom is safe … as long as … Irishmen are ready to die endeavouring to win [it]’. His execution took place at Kilmainham Gaol after dawn on 12th May – he was the last of the rebel leaders to face the firing squad.</p>
+<p>Learn more about James Conolly <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/James_Connolly">here</a>
+</main>
+</body>
+
+** end of undefined **
+
+** start of undefined **
+
+main {
+  text-align: center;
+  background-color: #FF9812;
+}
+
+#img-caption {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  font-size: 12px;
+  margin-top: 1px;
+}
+
+#img-div {
+  background-color: #F5C62E;
+  max-width: 800px;
+  margin: 5px auto 5px auto;
+}
+
+#tribute-info {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 0 auto;
+}
+
+** end of undefined **
+
