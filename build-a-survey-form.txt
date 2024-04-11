@@ -1,0 +1,83 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rate your haircut</title>
+  <html lang="en">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="header-section">
+  <h1 id="title">Rate your haircut</h1>
+  <p id="description">Thanks for choosing Professional Barber Services ltd, please provide feedback for us based on your experience with us</p>
+</div>
+
+<div class="survey-section">
+  <form id="survey-form">
+    <label id="name-label">Name: <input id="name" type="text" placeholder="Enter your Name" required></input></label>
+    <label id="email-label">Email: <input id="email" type="email" placeholder="Enter your Email" required></input></label>
+    <label id="number-label" id="number">Rate: <input id="number" type="number" min="0" max="10" placeholder="Rate out of 10" required></input></label>
+    <label for="haircuts">What did you get?</label>
+    <select name="haircuts" id="dropdown">
+      <option value="skin-fade">Skin Fade</option>
+      <option value="beard-styling">Beard styling</option>
+      <option value="scissors">Scissors</option>
+      <option value="buzz-cut">Buzz cut</option>
+    </select>
+    <fieldset>
+    <legend>Would you recommend us?</legend> 
+     <label><input value="yes" name="recommend" type="radio">Yes</label>
+     <label><input value="no" name="recommend" type="radio">No</label>
+     </fieldset>
+     <fieldset>
+       <legend>What was your experience?</legend>
+       <label><input value="bad" name="experience" type="checkbox">Bad</label>
+       <label><input value="moderate" name="experience" type="checkbox">Moderate</label>
+       <label><input value="good" name="experience" type="checkbox">Good</label>
+       <label><input value="great" name="experience" type="checkbox">Great</label>
+       </fieldset>
+       <label for="feedback">Give us your feedback</label>
+       <textarea id="feedback">Enter your feedback</textarea>
+    <button id=submit>Submit</button>
+  </form>
+</div>
+
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+.header-section {
+  text-align: center;
+}
+
+.survey-section {
+  justify-content: center;
+  text-align: left;
+  margin-left: 45%;
+  margin-right: 35%;
+}
+
+label {
+  display: inline-block;
+  margin: 10px 0 10px 0;
+}
+
+input {
+  min-width: 150px;
+}
+
+fieldset {
+  max-width: 100px;
+  vertical-align: middle;
+}
+
+** end of undefined **
+
