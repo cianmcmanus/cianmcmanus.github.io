@@ -1,0 +1,183 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Technical Documentation Page for Twitter Growth" />
+    <title>Technical Doc Page</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<main id="main-doc">
+<section id="Profile_Optimisation" class="main-section">
+  <header>Profile Optimisation</header>
+    <p>Optimising your profile is the FIRST thing you need to do.<br />
+<br />
+There is no point in posting out content right now if your profile looks like bad.</p>
+<p>If you have a tweet that blows up now you could gain 100 followers. However if your profile had been optimised you might have gained 1,000 followers. That’s why it is important to optimise your profile before starting</p>
+<pre>
+  <code>
+    var code = getCookie("code");
+ if (code == null) {
+ var code = setCode();
+ var expDate = new Date();
+  </code>
+</pre>
+</section>
+<section id="Types_of_Tweets" class="main-section">
+  <header>Types of Tweets</header>
+    <p>There are 6 different types of tweets (besides from threads, more on that later) that you will be putting out:</p>
+<p>
+<ol>
+<li>Educational (helpful information about your niche)</li>
+<li>Connection (story / belief / something going on in your life)</li>
+<li>Credibility (results / proof / association)</li>
+<li>Hot button (trending / controversial subjects)</li>
+<li>Build beliefs (cover the objections audience needs to succeed and buy from us)</li>
+<li>Auto DMs (giving away value in exchange for RT + Follow)</li>
+</ol>
+</p>
+<p>By putting out all of these types of tweets your Twitter will effectively be transformed into a funnel for people to buy your course / services / mentorship.</p>
+<pre>
+  <code>
+    var code = getCookie("code");
+ if (code == null) {
+ var code = setCode();
+ var expDate = new Date();
+  </code>
+</pre>
+</section>
+<section id="Writing_Threads" class="main-section">
+  <header>Writing Threads</header>
+    <p>There are 2 different types of threads</p>
+<p><ol>
+<li>Personal story threads</li>
+<li>Educational threads</li>
+</ol></p>
+<p>DO NOT get them mixed up. When writing a thread do one of them and stick to it</p>
+<pre>
+  <code>
+    var code = getCookie("code");
+ if (code == null) {
+ var code = setCode();
+ var expDate = new Date();
+  </code>
+</pre>
+</section>
+<section id="Engaging_with_big_accounts" class="main-section">
+  <header>Engaging with big accounts</header>
+    <p>If you’ve been following this guide (which you have) then you will have made a list of 10-15 bigger accounts in your niche to get tweet inspiration from</p>
+
+<p>What you will want to do now is add a few more accounts in (not all have to be in your exact niche, but just big accounts that are similar enough to you) until there’s about 50 accounts in it<br />
+<br />
+Now comment under the new tweets of these accounts 40-50 times a day
+
+DO NOT just repeat their tweet back to them or write some random quote or platitude. Actually provide value, ask a question, start a conversation<br />
+<br />
+Their followers will see you post similar content to the big account you’re replying to and follow you too</p>
+<pre>
+  <code>
+    var code = getCookie("code");
+ if (code == null) {
+ var code = setCode();
+ var expDate = new Date();
+  </code>
+</pre>
+</section>
+<section id="Buying_Retweets" class="main-section">
+  <header>Buying Retweets</header>
+    <p>Buying retweets is by far the easiest way to grow on Twitter in the beginning.</p>
+<p>It can literally be the difference between a tweet with 8 likes and a tweet that blows up and gets 5k+<br />
+<br />
+If you’re looking for retweets message me on telegram @CianMc and I can get you cheap retweets that will get your account viral<br />
+<br />
+P.S. If you have already bought retweets, the tweets you should be getting retweeted are:
+<ul>
+<li>Connection tweets</li>
+<li>Threads</li>
+</ul></p>
+<p>You can do others as well if you really want to, but if you want to see the best results then these are the type of tweets you want the big account to retweet</p>
+<pre>
+  <code>
+    var code = getCookie("code");
+ if (code == null) {
+ var code = setCode();
+ var expDate = new Date();
+  </code>
+</pre>
+<img id="twitter-logo" src="https://cdn.vox-cdn.com/thumbor/2zWCoOSHusS46TVjK3T2mnL-jCQ=/0x0:1600x1600/1400x1050/filters:focal(800x800:801x801)/cdn.vox-cdn.com/uploads/chorus_asset/file/24805464/F1x5VdQX0AA9Sgt.jpeg">
+</section>
+<nav id="navbar">
+<header>
+  <h1>Twitter Growth</h1>
+</header>
+<a href="#Profile_Optimisation" class="nav-link">Profile Optimisation</a>
+<a href="#Types_of_Tweets" class="nav-link">Types of Tweets</a>
+<a href="#Writing_Threads" class="nav-link">Writing Threads</a>
+<a href="#Engaging_with_big_accounts" class="nav-link">Engaging with big accounts</a>
+<a href="#Buying_Retweets" class="nav-link">Buying Retweets</a>
+</nav>
+</main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+header, p, ul, ol {
+  font-family: Arial;
+}
+
+header {
+  margin: 60px 100px 30px 0;
+  font-size: 24px;
+}
+
+p, ul, ol {
+  margin: 10px 120px 10px 20px;
+}
+
+#navbar {
+  height: 100%;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.main-section {
+  margin-left: 21%;
+}
+
+#navbar h1 {
+  text-align: center;
+}
+
+.nav-link {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#twitter-logo {
+  height: 160px;
+  width: 160px;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-bar {
+    display: none;
+  }
+}
+
+** end of undefined **
+
