@@ -1,0 +1,186 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Responsive Landing Page" />
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<section id="header-section">
+  <header id="header">
+  <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Shopify_logo.svg">
+  <nav id="nav-bar">
+    <ul>
+      <li><a href="#video" class="nav-link">Video</a></li>
+      <li><a href="#form-section" class="nav-link">Email</a></li>
+      <li><a href="#pricing-title" class="nav-link">Pricing</a></li>
+    </ul>
+  </nav>
+  </header>
+</section>
+
+<section id="video-section">
+  <h1 class="video-title">Check out our process:</h1>
+  <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/DwNSh3EyMAE?si=c9pHywajsH9BJMok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+
+<section id="form-section">
+  <div class="form-div">
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <p class="form-text">Enter your Email address to join our newsletter<br> where we give you daily advice on how to use<br> LinkedIn ads!</p>
+    <input id="email" type="email" placeholder="Enter your email" name="email" required></input>
+    <br>
+    <input id="submit" type="submit"></input>
+  </form>
+  </div>
+</section>
+
+<h1 id="pricing-title">Pricing</h1>
+<section id="pricing">
+  <div class="pricing-box">
+    <p class="pricing-price">$639/mo</p>
+    <ul class="pricing-list">
+      <li class="pricing-feature">Features</li>
+      <li class="pricing-feature">Features</li>
+      <li class="pricing-feature">Features</li>
+    </ul>
+  </div>
+  <div class="pricing-box">
+    <p class="pricing-price">$860/mo</p>
+    <ul class="pricing-list">
+      <li class="pricing-feature">Features</li>
+      <li class="pricing-feature">Features</li>
+      <li class="pricing-feature">Features</li>
+    </ul>
+  </div>
+  <div class="pricing-box">
+    <p class="pricing-price">$999/mo</p>
+    <ul class="pricing-list">
+      <li class="pricing-feature">Features</li>
+      <li class="pricing-feature">Features</li>
+      <li class="pricing-feature">Features</li>
+    </ul>
+  </div>
+</section>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  font-size: 62.5%;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  font-size: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+#header-img {
+  width: 20rem;
+  height: 10rem;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+#video-section {
+  display: block;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.video-title {
+  font-size: 4rem;
+  margin-top: 15rem;
+}
+
+#form-section {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.form-text {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.form-div {
+  margin-left: 35%;
+  margin-right: 35%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #5473ab;
+}
+
+#submit {
+  margin-top: 1rem;
+  font-size: 2rem;
+  background-color: #AB8C54;
+  color: #fff;
+}
+
+#pricing {
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  grid-template-rows: 1fr;
+  justify-content: center;
+}
+
+.pricing-box {
+  width: 20rem;
+  height: 35rem;
+  border: 1px solid black;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#pricing-title {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.pricing-feature {
+  font-size: 2.5rem;
+}
+
+.pricing-price {
+  font-size: 4rem;
+}
+
+.pricing-box {
+  text-align: center;
+  align-items: center;
+}
+
+.pricing-list {
+  list-style: none;
+  margin: 0;
+}
+
+@media only screen (max-width: 400px) {
+  #header-section {
+    width: 380px;
+  }
+}
+
+** end of undefined **
+
